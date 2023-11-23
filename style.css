@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(188, 200, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height:60vh;
+    align-items: center;
+    width:45vw;
+    justify-content: center;
+    background-color: white;
+    border-radius:15px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.container blockquote::before,.container blockquote::after{
+    content: '"'; /* add quotes to the content*/
+}
+.container p::before{
+    content: 'By - ';
+    text-align: right;
+}
+u{
+    color:#2973DD;
+}
+blockquote{
+    height: 20vh;
+    width: 40vw;
+    padding: 10px 10px;
+}
+button{
+    outline: none;
+    border: 1px solid rgb(188, 200, 255);
+    border-radius: 50px;
+    font-size: 20px;
+    width: 10vw;
+    padding: 20px;
+    cursor: pointer;
+}
+p{
+    text-align: right;
+    padding: 20px 0px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+button:hover{
+    color: white;
+    background-color:#2973DD;
+    cursor: pointer;
+}
+button a:hover{
+    color: white;
+} 
